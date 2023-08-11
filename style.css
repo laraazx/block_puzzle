@@ -1,0 +1,42 @@
+:root {
+  font-family: "Press Start 2P", cursive;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fce1eb;
+}
+
+h1 {
+  color: palevioletred;
+}
+
+.campo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f9b9cf;
+  width: 40rem;
+  min-height: 200px;
+  border: solid 2px rgb(115, 64, 81);
+  border-radius: 10px;
+}
+
+.bloco {
+  background-color: #d87093;
+  width: 80px;
+  height: 150px;
+  border: solid rgb(160, 79, 106);
+  border-radius: 5px;
+}
+
+.on{
+  background-color: white;
+}
+
+.off{
+  background-color: palevioletred;
+}
